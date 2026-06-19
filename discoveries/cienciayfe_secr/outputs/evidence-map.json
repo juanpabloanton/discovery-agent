@@ -1,0 +1,61 @@
+{
+  "personas": [
+    {
+      "name": "S. (secretaria academica)",
+      "role": "secretaria",
+      "primary": true
+    },
+    {
+      "name": "R. (rectora)",
+      "role": "rectora",
+      "primary": true
+    },
+    {
+      "name": "D. (desarrollador)",
+      "role": "desarrollador",
+      "primary": false
+    }
+  ],
+  "pains": [
+    {
+      "id": "data-inconsistente",
+      "source": "secretaria.md",
+      "persona": "secretaria"
+    },
+    {
+      "id": "versiones-distintas-de-documentos",
+      "source": "secretaria.md",
+      "persona": "secretaria"
+    },
+    {
+      "id": "retraso-en-entrega",
+      "source": "secretaria.md",
+      "persona": "secretaria"
+    },
+    {
+      "id": "riesgo-de-firma-con-errores",
+      "source": "reectora.md",
+      "persona": "rectora"
+    },
+    {
+      "id": "cruce-de-periodos-academicos",
+      "source": "reectora.md",
+      "persona": "rectora"
+    },
+    {
+      "id": "revision-manual-lenta",
+      "source": "secretaria.md",
+      "persona": "secretaria"
+    },
+    {
+      "id": "falta-de-validacion-automatica",
+      "source": "desarrollador.md",
+      "persona": "desarrollador"
+    },
+    {
+      "id": "falta-de-control-de-versiones",
+      "source": "desarrollador.md",
+      "persona": "desarrollador"
+    }
+  ]
+}
